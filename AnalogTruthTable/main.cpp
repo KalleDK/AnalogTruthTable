@@ -99,7 +99,7 @@ void print_table(WORD *truth_table, WORD combinations, int last_input) {
 	//| 1 | 0 | X |
 	printf("|");
 	for (int i = 0; i < (last_input + 1); i++) {
-		printf(" %c |", (last_input - i + 65));
+		printf(" %u |", (last_input - i));
 	}
 	printf(" X |\n");
 
